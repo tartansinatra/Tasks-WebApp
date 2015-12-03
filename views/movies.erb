@@ -1,0 +1,10 @@
+
+
+    <% @movies.each do |movie| %>
+    <h3><%= movie['title'] %></h3>
+    <p> <%= movie['year'] %></p>
+    <p> <%= movie['plot'] %></p>
+    <img src="<%= movie['poster'] %>"
+    <% end %>
+
+    
